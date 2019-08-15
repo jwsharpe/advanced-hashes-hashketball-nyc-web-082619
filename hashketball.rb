@@ -98,7 +98,7 @@ def most_points_scored
   player = ''
   game_hash.keys.each do |location|
     game_hash[location][:players].keys.each do |name|
-      if game_hash[location][:players][name][:shoe] > max_shoe
+      if game_hash[location][:players][name][:shoe] > max_score
         max_score = game_hash[location][:players][name][:scored]
         player = name
       end
