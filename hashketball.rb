@@ -137,7 +137,7 @@ end
 
 # Write a method that returns true if the player with the longest name
 # had the most steals. Call the method long_name_steals_a_ton?
-def long_name_steals_a_ton
+def long_name_steals_a_ton?
   max_steals = 0
   player_name = ''
   game_hash.keys.each do |location|
